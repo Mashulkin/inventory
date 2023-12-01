@@ -1,0 +1,9 @@
+server_vendor:         server_vendor
+server_product:        server_product
+hostname:              hostname
+server_serial:         server_serial
+cpu_frequency:         cpu_frequency
+cpu_cores:             cpu_cores
+cpu_vendor:            cpu_vendor
+cpu_slot:              cpu_slot
+cpu_product:           cpu_product

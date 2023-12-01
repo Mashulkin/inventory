@@ -1,0 +1,7 @@
+server_serial:         server_serial
+card_product:          card_product
+card_vendor:           card_vendor
+card_remark:           card_remark
+card_serial:           card_serial
+card_type:             card_type
+card_slot:             card_slot

@@ -1,0 +1,7 @@
+server_serial:         server_serial
+hdd_capacity:          hdd_capacity
+hdd_product:           hdd_product
+hdd_vendor:            hdd_vendor
+hdd_serial:            hdd_serial
+hdd_type:              hdd_type
+hdd_slot:              hdd_slot

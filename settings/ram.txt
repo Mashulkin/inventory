@@ -1,0 +1,7 @@
+server_serial:         server_serial
+ram_capacity:          ram_capacity
+ram_product:           ram_product
+ram_vendor:            ram_vendor
+ram_serial:            ram_serial
+ram_type:              ram_type
+ram_slot:              ram_slot
