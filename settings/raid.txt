@@ -1,0 +1,6 @@
+server_serial:         server_serial
+raid_product:          raid_product
+raid_capacity:         raid_capacity
+raid_vendor:           raid_vendor
+raid_serial:           raid_serial
+raid_type:             raid_type
