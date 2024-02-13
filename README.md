@@ -1,9 +1,9 @@
-# Fantasy premier league
+# Parser for processing commands lshw, lspci, storcli, smartctl
 
-To run this application
+pip install -r requirements.txt
 
 **Inventory**
+To run this application
 
 export SIMPLE_SETTINGS=settings.general
-
 python main.py

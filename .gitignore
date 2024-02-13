@@ -3,6 +3,10 @@
 # data folder
 data/
 input/
+input_/
+input__/
+input___/
+input____/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

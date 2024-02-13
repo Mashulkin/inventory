@@ -2,9 +2,8 @@
 """
 Reading data from csv file
 """
-from functions.common_modules import write_csv, read_txt
-
 import os.path
+from functions.common_modules import write_csv, read_txt
 
 
 __author__ = 'Vadim Arsenev'

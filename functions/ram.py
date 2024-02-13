@@ -7,8 +7,8 @@ from functions.common_modules import write_csv
 
 
 __author__ = 'Vadim Arsenev'
-__version__ = '1.1.0'
-__date__ = '10.12.2023'
+__version__ = '1.1.1'
+__date__ = '08.02.2024'
 
 
 def getRAM(data, server_serial, ORDER_RAM):
@@ -23,8 +23,9 @@ def getRAM(data, server_serial, ORDER_RAM):
     try:
         ram_capacity = int(data['size'] / 1024 / 1024)
     except KeyError:
-        ram_capacity = ''
+        return
 
+    # Data generation and writing to file ram.csv
     data_ram = {
         'server_serial': server_serial,
         'ram_vendor': ram_vendor,
@@ -34,5 +35,4 @@ def getRAM(data, server_serial, ORDER_RAM):
         'ram_product': ram_product,
         'ram_capacity': ram_capacity,
     }
-
     write_csv(settings.RESULT_FILE_RAM[0], data_ram, ORDER_RAM)
